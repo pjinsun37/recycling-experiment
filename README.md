@@ -1,18 +1,30 @@
 # recycling-experiment
 
-This project analyzes the impact of two recycling interventions conducted by campus researchers — shaped bin openings and informational banners — to assess their effectiveness in reducing contamination rates. Using Difference-in-Differences (DiD) analysis, we examine recycling behaviors across different locations to determine which interventions successfully improve waste sorting.
+# 🔎 Problem
+Despite increasing awareness of sustainability, contamination in recycling bins remains a persistent challenge. Many individuals either fail to recycle correctly or do not recycle at all, leading to inefficiencies in waste management and undermining the effectiveness of recycling programs.
 
-**Methodology**
-- Study Design: Conducted in two phases across two locations on campus (ENGINE & UTOWN).
-- Interventions Tested: Phase 2 (Shaped openings) / Phase 3 (Informational banners)
-- Data Analysis: Applied Difference-in-Differences (DiD) regression modeling to measure the treatment effects.
-- Parallel Trends Validation: Conducted pre-treatment trend analysis to ensure the robustness of the DiD methodology.
+# 💡 Solution
+Could innovative recycling bin designs improve recycling accuracy?
 
-**Data & Adjustments**
-- Dataset: Includes 78 observations after filtering out incomplete data points.
-- Adjustments Made:
--   Excluded dates with missing values to maintain consistency.
--   Ensured matched observations across both locations to improve comparability.
+A team of NUS researchers conducted a controlled field experiment to evaluate whether simple design interventions — shaped bin openings and informational banners — could improve recycling behavior and reduce contamination rates.
+
+The aim of this project was to analyze the given dataset and experimental design, applying econometric techniques to assess the intervention’s effectiveness.
+
+# 🔬 Provided Experiment Design
+The study was conducted in two locations on campus (ENGINE & UTOWN) and involved three sequential phases:
+- Phase 1 (Baseline): Standard recycling bins are used to measure initial recycling behavior.
+- Phase 2 (Shaped Openings Introduced): Openings are modified to match recyclable item shapes (e.g., circular holes for cans, slots for paper).
+- Phase 3 (Informational Banners Added): Banners with clear recycling instructions are placed on bins.
+
+Since the dataset and experimental structure were pre-determined, our analysis focused on identifying causal effects within the existing study framework.
+
+# 📊 Evaluation
+To ensure causal inference, the study applied Difference-in-Differences (DiD) regression modeling to quantify treatment effects.
+
+Key Steps:
+- Parallel Trends Validation: Pre-treatment trend analysis conducted to confirm methodological robustness.
+- Data Filtering: The dataset includes 78 observations, with incomplete data points excluded to maintain consistency.
+- Comparability Adjustments: Observations across both locations were matched to control for baseline variations.
 
 <p>&nbsp;</p>
 
@@ -28,21 +40,32 @@ Third Phase
 
 <p>&nbsp;</p>
 
-**Key Findings**
-- Shaped openings significantly reduced contamination rates for paper (-2.52pp) and cans (-15pp) but had no effect on plastic recycling.
-- Informational banners had no impact on paper or can recycling and actually increased plastic contamination by 9.1pp, likely due to confusing signage.
-- Recommendation: Refer to limitations to conduct re-designed experinment. If time / budget does not allow, consider gradually implementing shaped openings while re-evaluating messaging strategies for plastic recycling.
+# 🔎 Key Findings
 
-**Key Limitations**
-- Unobserved External Factors: External influences such as campus events and academic schedules may have affected recycling behavior. These were not controlled for in the study.
-- Short Study Duration: Each phase lasted only 11–12 days, which may not be enough time for long-term behavioral adjustments.
-- Potential Spillover Effects: The two study locations (ENGINE & UTOWN) were only 15 minutes apart, increasing the risk of behavioral contamination across groups.
-- Baseline Shift Between Phases: A one-month gap between Phase 2 (shaped openings) and Phase 3 (informational banners) may have introduced bias, making it harder to assess the true effect of banners.
-- Cumulative Treatment Effects: Since Phase 2 preceded Phase 3, it is unclear whether Phase 3 results were due to banners alone or carryover effects from shaped openings.
+**✅ What Worked?**
+- Shaped openings significantly reduced contamination rates for paper (↓ 2.5 pp) and can (↓ 15 pp).
 
-**Points of Imporvement**
-- Control for External Factors: Conduct surveys to track motivations and behaviors, and use statistical controls (e.g., propensity score matching) to account for external influences.
-- Increase Study Duration: Extending intervention periods would help assess long-term effects and behavioral sustainability.
-- Reduce Spillover Effects: Future experiments should be conducted in geographically separated locations or include tracking mechanisms for cross-location movement.
-- Establish New Baselines for Each Phase: Instead of using the original baseline, setting a new baseline before each phase would better account for behavioral shifts.
-- Randomize Treatment Order: Future experiments should randomize intervention sequences to separate individual effects and reduce cumulative treatment bias.
+**❌ What Didn’t Work?**
+- Informational banners had no impact on paper or can recycling, and increased plastic contamination (↑ 9.1 pp) - likely due to confusing messaging.
+
+<p>&nbsp;</p>
+
+# 📢 Recommendations
+
+- If immediate action is needed, consider gradually implementing shaped openings while re-evaluating messaging strategies for plastic recycling.
+- **If time/budget allows, recommend conducting a redesigned experiment addressing observed limitations (below)**
+
+<p>&nbsp;</p>
+
+**⚠️ Limitations & Recommended Improvements**
+
+- Uncontrolled External Factors: Events, campus schedules, and other influences may have affected behavior.
+  - ✔️ Conduct surveys to track motivations & behaviors; use propensity score matching to adjust for external influences.
+- Short Study Duration: Each phase lasted only 11–12 days, which may not reflect long-term behavioral changes.
+  - ✔️ Increase intervention periods to evaluate long-term effects.
+- Spillover Effects: The two study locations were only 15 minutes apart, potentially contaminating treatment groups.
+  - ✔️ Use geographically separated test sites or track cross-location movement.
+- Baseline Shift Between Phases: A one-month gap between Phases 2 and 3 may have introduced bias.
+  - ✔️ Instead of relying on the original baseline, reset baselines before each intervention.
+- Cumulative Treatment Effects: Since Phase 2 preceded Phase 3, it's unclear whether Phase 3 results were due to banners alone or a carryover effect from shaped openings.
+  - ✔️ Randomize Treatment Order: Future studies should randomize intervention sequences to isolate individual effects and prevent cumulative bias.
