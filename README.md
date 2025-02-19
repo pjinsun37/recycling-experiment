@@ -4,7 +4,7 @@
 Despite increasing awareness of sustainability, contamination in recycling bins remains a persistent challenge. Many individuals either fail to recycle correctly or do not recycle at all, leading to inefficiencies in waste management and undermining the effectiveness of recycling programs.
 
 # 💡 Solution
-Could innovative recycling bin designs improve recycling accuracy?
+**Could innovative recycling bin designs improve recycling accuracy?**
 
 A team of NUS researchers conducted a controlled field experiment to evaluate whether simple design interventions — shaped bin openings and informational banners — could improve recycling behavior and reduce contamination rates.
 
@@ -28,13 +28,13 @@ Key Steps:
 
 <p>&nbsp;</p>
 
-Second Phase
+Second Phase (Shaped Openings)
 
 <img width="570" alt="Screenshot 2025-02-19 at 3 34 30 PM" src="https://github.com/user-attachments/assets/b906c217-1089-4bee-9b91-7c81209a3899" />
 
 <p>&nbsp;</p>
 
-Third Phase
+Third Phase (Informational Banners)
 
 <img width="360" alt="Screenshot 2025-02-19 at 3 35 06 PM" src="https://github.com/user-attachments/assets/fde9b2af-3555-4715-8677-260783863ef5" />
 
