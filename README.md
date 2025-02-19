@@ -5,7 +5,7 @@ This project analyzes the impact of two recycling interventions on campus — sh
 **Key Findings**
 - Shaped openings significantly reduced contamination rates for paper (-2.52pp) and cans (-15pp) but had no effect on plastic recycling.
 - Informational banners had no impact on paper or can recycling and actually increased plastic contamination by 9.1pp, likely due to confusing signage.
-- Recommendation: Shaped openings should be gradually implemented in high-traffic areas (e.g., malls, office complexes, tourist attractions) while re-evaluating messaging strategies for plastic recycling.
+- Recommendation: Shaped openings should be gradually implemented while re-evaluating messaging strategies for plastic recycling.
 
 **Methodology**
 - Study Design: Conducted in two phases across two locations on campus (ENGINE & UTOWN).
