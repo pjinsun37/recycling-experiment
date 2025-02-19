@@ -87,6 +87,6 @@ Key Steps:
 
 # 📂 Project Files
 
-GP2Data/: Contains datasets collected throughout the experiment.
+GP2Data: Contains datasets collected throughout the experiment.
 
 regression_code.ipynb: Main notebook with code implementation of the Differences-in-Differences analysis.
