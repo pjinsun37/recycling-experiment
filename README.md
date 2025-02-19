@@ -34,7 +34,6 @@ Third Phase
 - Recommendation: Refer to limitations to conduct re-designed experinment. If time / budget does not allow, consider gradually implementing shaped openings while re-evaluating messaging strategies for plastic recycling.
 
 **Key Limitations**
-Several limitations to the experiment design
 - Unobserved External Factors: External influences such as campus events and academic schedules may have affected recycling behavior. These were not controlled for in the study.
 - Short Study Duration: Each phase lasted only 11–12 days, which may not be enough time for long-term behavioral adjustments.
 - Potential Spillover Effects: The two study locations (ENGINE & UTOWN) were only 15 minutes apart, increasing the risk of behavioral contamination across groups.
