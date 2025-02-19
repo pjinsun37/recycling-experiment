@@ -11,7 +11,7 @@ A team of NUS researchers conducted a controlled field experiment to evaluate wh
 The aim of this project was to analyze the given dataset and experimental design, applying econometric techniques to assess the intervention’s effectiveness.
 
 # 🔬 Provided Experiment Design
-The study was conducted in two locations on campus (ENGINE & UTOWN) and involved three sequential phases:
+The study was conducted in two locations on campus (ENGINE & UTOWN) and involved three sequential phases (each for 11-12 days):
 - Phase 1 (Baseline): Standard recycling bins are used to measure initial recycling behavior.
 - Phase 2 (Shaped Openings Introduced): Openings are modified to match recyclable item shapes (e.g., circular holes for cans, slots for paper).
 - Phase 3 (Informational Banners Added): Banners with clear recycling instructions are placed on bins.
