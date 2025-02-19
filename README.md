@@ -8,10 +8,8 @@ This project analyzes the impact of two recycling interventions on campus — sh
 - Recommendation: Shaped openings should be gradually implemented in high-traffic areas (e.g., malls, office complexes, tourist attractions) while re-evaluating messaging strategies for plastic recycling.
 
 **Methodology**
-- Study Design: Conducted in two phases across two locations (ENGINE & UTOWN).
-- Interventions Tested:
--   Phase 2: Shaped openings
--   Phase 3: Informational banners
+- Study Design: Conducted in two phases across two locations on campus (ENGINE & UTOWN).
+- Interventions Tested: Phase 2 (Shaped openings) / Phase 3 (Informational banners)
 - Data Analysis: Applied Difference-in-Differences (DiD) regression modeling to measure the treatment effects.
 - Parallel Trends Validation: Conducted pre-treatment trend analysis to ensure the robustness of the DiD methodology.
 
