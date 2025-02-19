@@ -74,12 +74,6 @@ Key Steps:
 
 # 📂 Project Files
 
-data/: Contains datasets collected throughout the experiment.
-
-analysis/: Jupyter Notebooks for data cleaning, visualization, and econometric analysis.
-
-figures/: Graphs and visual representations of the results.
+GP2Data/: Contains datasets collected throughout the experiment.
 
 recycling_experiment.ipynb: Main notebook with code implementation of the Differences-in-Differences analysis.
-
-README.md: This document.
