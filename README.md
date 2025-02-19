@@ -19,8 +19,11 @@ This project analyzes the impact of two recycling interventions on campus — sh
 -   Excluded dates with missing values to maintain consistency.
 -   Ensured matched observations across both locations to improve comparability.
 
+
 Second Phase
+
 <img width="570" alt="Screenshot 2025-02-19 at 3 34 30 PM" src="https://github.com/user-attachments/assets/b906c217-1089-4bee-9b91-7c81209a3899" />
 
 Third Phase
+
 <img width="360" alt="Screenshot 2025-02-19 at 3 35 06 PM" src="https://github.com/user-attachments/assets/fde9b2af-3555-4715-8677-260783863ef5" />
