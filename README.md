@@ -69,3 +69,17 @@ Key Steps:
   - ✔️ Instead of relying on the original baseline, reset baselines before each intervention.
 - Cumulative Treatment Effects: Since Phase 2 preceded Phase 3, it's unclear whether Phase 3 results were due to banners alone or a carryover effect from shaped openings.
   - ✔️ Randomize Treatment Order: Future studies should randomize intervention sequences to isolate individual effects and prevent cumulative bias.
+
+<p>&nbsp;</p>
+
+# 📂 Project Files
+
+data/: Contains datasets collected throughout the experiment.
+
+analysis/: Jupyter Notebooks for data cleaning, visualization, and econometric analysis.
+
+figures/: Graphs and visual representations of the results.
+
+recycling_experiment.ipynb: Main notebook with code implementation of the Differences-in-Differences analysis.
+
+README.md: This document.
