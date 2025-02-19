@@ -76,4 +76,4 @@ Key Steps:
 
 GP2Data/: Contains datasets collected throughout the experiment.
 
-recycling_experiment.ipynb: Main notebook with code implementation of the Differences-in-Differences analysis.
+regression_code.ipynb: Main notebook with code implementation of the Differences-in-Differences analysis.
