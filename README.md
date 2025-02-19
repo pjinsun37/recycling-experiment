@@ -1,6 +1,6 @@
 # Campus Recycling Experiment
 
-# 🔎 Problem
+# ‼️ Problem
 Despite increasing awareness of sustainability, contamination in recycling bins remains a persistent challenge. Many individuals either fail to recycle correctly or do not recycle at all, leading to inefficiencies in waste management and undermining the effectiveness of recycling programs.
 
 # 💡 Solution
