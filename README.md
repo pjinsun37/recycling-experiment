@@ -34,9 +34,22 @@ Third Phase (Informational Banners)
 To ensure causal inference, the study applied Difference-in-Differences (DiD) regression modeling to quantify treatment effects.
 
 Key Steps:
-- Parallel Trends Validation: Pre-treatment trend analysis conducted to confirm methodological robustness.
-- Data Filtering: The dataset includes 78 observations, with incomplete data points excluded to maintain consistency.
-- Comparability Adjustments: Observations across both locations were matched to control for baseline variations.
+
+**- Data Filtering:** The dataset includes 78 observations, with incomplete data points excluded to maintain consistency.
+
+**- Parallel Trends Validation:** Pre-treatment trend analysis conducted to confirm methodological robustness.
+
+  <img width="594" alt="Screenshot 2025-02-20 at 12 36 04 AM" src="https://github.com/user-attachments/assets/2d9bb998-af5b-4a09-9179-218595d3838c" />
+
+  - Null Hypothesis: Trends in contamination rates between ENGINE and UTOWN are parallel during Phase 1 (b3 = 0)
+
+**- DiD Regression Model:**
+
+  <img width="867" alt="Screenshot 2025-02-20 at 12 34 21 AM" src="https://github.com/user-attachments/assets/bc1b4cee-18b5-4650-8e15-c4045060d7d3" />
+
+  - Treatment = 1 if in the intervention group, 0 otherwise
+  - Post = 1 if after intervention, 0 otherwise
+  - Interaction terms (b3, b5) = Causal effect of interventions
 
 <p>&nbsp;</p>
 
