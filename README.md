@@ -1,4 +1,4 @@
-# recycling-experiment
+# Campus Recycling Experiment
 
 # 🔎 Problem
 Despite increasing awareness of sustainability, contamination in recycling bins remains a persistent challenge. Many individuals either fail to recycle correctly or do not recycle at all, leading to inefficiencies in waste management and undermining the effectiveness of recycling programs.
@@ -18,16 +18,6 @@ The study was conducted in two locations on campus (ENGINE & UTOWN) and involved
 
 Since the dataset and experimental structure were pre-determined, our analysis focused on identifying causal effects within the existing study framework.
 
-# 📊 Evaluation
-To ensure causal inference, the study applied Difference-in-Differences (DiD) regression modeling to quantify treatment effects.
-
-Key Steps:
-- Parallel Trends Validation: Pre-treatment trend analysis conducted to confirm methodological robustness.
-- Data Filtering: The dataset includes 78 observations, with incomplete data points excluded to maintain consistency.
-- Comparability Adjustments: Observations across both locations were matched to control for baseline variations.
-
-<p>&nbsp;</p>
-
 Second Phase (Shaped Openings)
 
 <img width="570" alt="Screenshot 2025-02-19 at 3 34 30 PM" src="https://github.com/user-attachments/assets/b906c217-1089-4bee-9b91-7c81209a3899" />
@@ -37,6 +27,16 @@ Second Phase (Shaped Openings)
 Third Phase (Informational Banners)
 
 <img width="360" alt="Screenshot 2025-02-19 at 3 35 06 PM" src="https://github.com/user-attachments/assets/fde9b2af-3555-4715-8677-260783863ef5" />
+
+<p>&nbsp;</p>
+
+# 📊 Evaluation
+To ensure causal inference, the study applied Difference-in-Differences (DiD) regression modeling to quantify treatment effects.
+
+Key Steps:
+- Parallel Trends Validation: Pre-treatment trend analysis conducted to confirm methodological robustness.
+- Data Filtering: The dataset includes 78 observations, with incomplete data points excluded to maintain consistency.
+- Comparability Adjustments: Observations across both locations were matched to control for baseline variations.
 
 <p>&nbsp;</p>
 
